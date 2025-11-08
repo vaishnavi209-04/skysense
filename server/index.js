@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 import cors from "cors";
 
 dotenv.config();
-console.log("Loaded API key:", process.env.OPENWEATHER_KEY);
 
 
 const app = express();
