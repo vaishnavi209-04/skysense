@@ -137,6 +137,20 @@ SkySense/
 * Environment variables securely configured on both platforms
 
 ---
+📸 Screenshots
+🏠 Landing Page
+
+(Showcases SkySense logo, gradient background, and feature blocks)
+<img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/bb0af129-c0cd-44ca-82b7-c3de0e8b1d53" />
+
+
+🌦️ Weather Page
+
+(Displays temperature, condition, icons, and forecast)
+<img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/8003ef43-b4ad-444a-97f0-0ae3dfffb845" />
+
+
+---
 
 ## 👩‍💻 Author
 
