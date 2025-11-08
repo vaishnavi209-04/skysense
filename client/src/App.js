@@ -29,8 +29,8 @@ function App() {
       setLoading(true);
 
       const [weatherRes, forecastRes] = await Promise.all([
-        axios.get(`http://localhost:5000/api/weather/${cityName}`),
-        axios.get(`http://localhost:5000/api/forecast/${cityName}`)
+        axios.get(`https://skysense-server.onrender.com/api/weather/${cityName}`),
+        axios.get(`https://skysense-server.onrender.com/api/forecast/${cityName}`)
       ]);
 
       const mainCondition = weatherRes.data.weather[0].main;
@@ -51,7 +51,7 @@ function App() {
 
   const fetchBackgroundImage = async (query) => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/background/${query}`);
+      const res = await axios.get(`https://skysense-server.onrender.com/api/background/${query}`);
       return res.data.imageUrl;
     } catch {
       return "";
