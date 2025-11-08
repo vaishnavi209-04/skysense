@@ -1,0 +1,15 @@
+{
+  "name": "skysense",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  "start": "node server/index.js",
+  "dev": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "npm start --prefix server",
+  "client": "npm start --prefix client",
+  "build": "npm run build --prefix client"
+},
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
