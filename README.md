@@ -7,7 +7,7 @@ It allows users to view real-time weather updates with an elegant UI, smooth tra
 ---
 
 ## 🚀 Live Demo
-🎯 **Frontend (Vercel):** [https://skysense-weab.vercel.app](https://skysense-web.vercel.app)  
+🎯 **Frontend (Vercel):** [https://skysense-web.vercel.app](https://skysense-web.vercel.app)  
 ☁️ **Backend (Render):** [https://skysense-server.onrender.com](https://skysense-server.onrender.com)
 
 ---
